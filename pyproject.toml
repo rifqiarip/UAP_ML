@@ -1,0 +1,15 @@
+[project]
+name = "ML"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "rifqiarip", email = "rifqiarips@gmail.com"},
+]
+dependencies = ["tensorflow==2.18.0", "streamlit>=1.41.1", "scikit-learn>=1.6.0", "matplotlib>=3.10.0", "seaborn>=0.13.2", "pandas>=2.2.3", "keras-tuner>=1.4.7"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
